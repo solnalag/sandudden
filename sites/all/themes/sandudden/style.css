@@ -46,6 +46,35 @@ img {
   height: auto;
   display: block;
 }
+form .panel-body {
+  padding: 1em 1.5em 0;
+}
+form .form-item {
+  margin-bottom: 1em;
+}
+form input.email {
+  width: 100%;
+}
+form input.form-checkbox {
+  margin: 8px 0 0;
+}
+form input.form-number {
+  width: 50px;
+}
+form .webform-component-date select,
+form .webform-component-webform_time select {
+  width: auto;
+  display: inline-block;
+}
+form .webform-component-checkboxes {
+  margin-bottom: 1.5em;
+}
+form .webform-component-checkboxes .form-type-checkbox {
+  margin-bottom: 0.5em;
+}
+form .webform-component-checkboxes input.form-number {
+  width: 50px;
+}
 .main-container .row {
   margin-top: 30px;
 }
