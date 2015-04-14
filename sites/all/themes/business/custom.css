@@ -1,0 +1,40 @@
+/* Desktop */
+#wrap {
+  width: auto;
+  max-width: 920px;
+}
+body.sidebar-first #post-content {
+  width: 70%;
+}
+#sidebar {
+  width: 25%;
+}
+.field-name-field-flera-bilder .field-item {
+  float: left;
+  margin-right: 30px;
+}
+.region-sidebar-first {
+  margin-top: 40px;
+}
+/* Tablet */
+@media only screen and (min-width: 550px) and (max-width: 1023px) {
+  
+}
+/* Tablet small */
+@media only screen and (min-width: 550px) and (max-width: 829px) {
+  body.sidebar-first #post-content {
+    width: 100%;
+  }
+  #sidebar {
+    width: 100%;
+  }
+}
+/* Smartphones and Phablets (portrait and landscape) */
+@media only screen and (min-width: 0) and (max-width: 550px) {
+  body.sidebar-first #post-content {
+    width: 100%;
+  }
+  #sidebar {
+    width: 100%;
+  }
+}
