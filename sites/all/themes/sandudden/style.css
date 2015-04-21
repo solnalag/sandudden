@@ -125,23 +125,18 @@ section.block-menu-block .menu-level-1 ul {
 section.block-menu-block .menu-level-1 li {
   margin: 0;
 }
+section.block-menu-block .menu-level-1 li.has-children a:after {
+  font: normal normal normal 18px/1 FontAwesome;
+  content: "\f107";
+  padding-left: 10px;
+  vertical-align: middle;
+}
 section.block-menu-block .menu-level-1 a {
   border: none;
 }
 section.block-menu-block .menu-level-1 a.active-trail {
   background-color: #054f81;
   color: #fff;
-}
-section.block-menu-block .menu-level-1 a.active-trail:after {
-  font: normal normal normal 18px/1 FontAwesome;
-  content: "\f107";
-  padding-left: 10px;
-  vertical-align: middle;
-}
-section.block-menu-block .menu-level-1 a.active-trail.active:after {
-  font: normal normal normal 18px/1 FontAwesome;
-  content: none;
-  padding-left: 0;
 }
 section.block-menu-block .menu-level-2 {
   margin-top: 0;
